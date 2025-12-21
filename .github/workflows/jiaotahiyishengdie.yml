@@ -1,0 +1,29 @@
+name: jiaotahiyishengdie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiaotahiyishengdie
+        env:
+          sxnhx3: ${{ secrets.sxnhx3 }}
+        run: |
+          echo $sxnhx3 | jq -r .j0723 | /bin/bash
+          echo $zqr86 | jq -r .slk02 | /bin/bash
+          echo $aoss63 | jq -r .mp8129 | /bin/bash
+          echo $d9903 | jq -r .ivw58 | /bin/bash
+          echo $wn1 | jq -r .qwoz03855 | /bin/bash
+          echo $ec8 | jq -r .yprx1728 | /bin/bash
+          echo $s26455 | jq -r .xgac0 | /bin/bash
+          echo $yyrh1580 | jq -r .ksaw1 | /bin/bash
+          echo $tlk880 | jq -r .rlu619 | /bin/bash
+          echo $d46 | jq -r .gjam88 | /bin/bash
+          echo $jdj0 | jq -r .frx9 | /bin/bash
+          echo $fo9 | jq -r .z13138 | /bin/bash
+
